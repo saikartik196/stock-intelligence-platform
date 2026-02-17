@@ -1,0 +1,9 @@
+project:
+  name: stock-intelligence-platform
+
+paths:
+  raw_data: data/raw
+  external_data: data/external
+
+logging:
+  level: INFO
