@@ -10,6 +10,11 @@ __pycache__/
 
 # Data (keep folders, not files)
 data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
 data/external/*
 
 # Logs
