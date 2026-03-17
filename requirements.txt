@@ -1,0 +1,29 @@
+# --- Core Data Manipulation ---
+# Essential for handling the OHLC and News CSVs
+pandas==2.2.0
+numpy==1.26.4
+python-dotenv==1.0.1
+pyarrow==15.0.0
+
+# --- Quantitative Finance & Technical Analysis ---
+# pandas-ta is a pro-level library for RSI, MACD, and EMA
+pandas-ta==0.3.14b0
+scipy==1.12.0
+
+# --- NLP & Sentiment (The "Intelligence" Part) ---
+# Transformers is needed for the FinBERT model
+transformers==4.37.2
+torch==2.2.0
+scikit-learn==1.4.0
+
+# --- Database & API Management ---
+# For later stages when you move data to PostgreSQL/Cloud
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+requests==2.31.0
+
+# --- Development & Notebooks ---
+jupyter==1.0.0
+ipykernel==6.29.2
+matplotlib==3.8.3
+seaborn==0.13.2
